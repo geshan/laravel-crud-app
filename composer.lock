@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e255f12486119cd160b865b8538985d4",
+    "content-hash": "341e996938c59db9b02299162555e6cd",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -482,16 +482,16 @@
         },
         {
             "name": "flagsmith/flagsmith-php-client",
-            "version": "v2.0.0",
+            "version": "v2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Flagsmith/flagsmith-php-client.git",
-                "reference": "8d11adf0d945afd37c332f5daf8c43cceb9ee075"
+                "reference": "daa562dc49ddcdf0f84d1d59b2bdab6960787cf8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Flagsmith/flagsmith-php-client/zipball/8d11adf0d945afd37c332f5daf8c43cceb9ee075",
-                "reference": "8d11adf0d945afd37c332f5daf8c43cceb9ee075",
+                "url": "https://api.github.com/repos/Flagsmith/flagsmith-php-client/zipball/daa562dc49ddcdf0f84d1d59b2bdab6960787cf8",
+                "reference": "daa562dc49ddcdf0f84d1d59b2bdab6960787cf8",
                 "shasum": ""
             },
             "require": {
@@ -503,7 +503,8 @@
                 "psr/simple-cache": "^1.0"
             },
             "require-dev": {
-                "guzzlehttp/guzzle": "^7.3"
+                "guzzlehttp/guzzle": "^7.3",
+                "guzzlehttp/psr7": "^2.1.0"
             },
             "type": "library",
             "autoload": {
@@ -523,9 +524,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Flagsmith/flagsmith-php-client/issues",
-                "source": "https://github.com/Flagsmith/flagsmith-php-client/tree/v2.0.0"
+                "source": "https://github.com/Flagsmith/flagsmith-php-client/tree/v2.1.1"
             },
-            "time": "2021-10-21T08:41:26+00:00"
+            "time": "2022-02-01T08:05:22+00:00"
         },
         {
             "name": "fruitcake/laravel-cors",
@@ -8146,5 +8147,5 @@
         "php": "^7.3|^8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.1.0"
 }

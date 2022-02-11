@@ -11,7 +11,7 @@ class StudentController extends Controller
 
     public function __construct()
     {
-        $flagSmith = new Flagsmith('LKfXyih5yqZxL3huZ5LraP');
+        $flagSmith = new Flagsmith('LCA7PsnYptWDs2F3kchceV');
         $this->bt = $flagSmith;
     }
 
