@@ -7,12 +7,11 @@ use Flagsmith\Flagsmith;
 
 class StudentController extends Controller
 {
-   private $bt;
+    private $flagSmithClient;
 
-    public function __construct()
+    public function __construct(Flagsmith $client)
     {
-        $flagSmith = new Flagsmith('LCA7PsnYptWDs2F3kchceV');
-        $this->bt = $flagSmith;
+        $this->flagSmithClient = $client;
     }
 
     /**
@@ -23,7 +22,7 @@ class StudentController extends Controller
     public function index()
     {
         $student = Student::all();
-        $showActions = $this->bt->isFeatureEnabled('show_actions');
+        $showActions = $this->flagSmithClient->isFeatureEnabled('show_actions');
         return view('index', compact('student', 'showActions'));
     }
 
